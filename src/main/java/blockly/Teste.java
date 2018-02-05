@@ -6,7 +6,7 @@ import java.util.concurrent.Callable;
 
 @CronapiMetaData(type = "blockly")
 @CronappSecurity
-public class EventoDepoisInserir {
+public class Teste {
 
 	public static final int TIMEOUT = 300;
 
@@ -15,27 +15,16 @@ public class EventoDepoisInserir {
 	 * @param Entidade
 	 * @return Var
 	 */
-	// Evento_depois_Inserir
+	// teste
 	public static Var Executar(Var Entidade) throws Exception {
 		return new Callable<Var>() {
 
-			public Var call() throws Exception {
-				System.out.println(Var.valueOf("Chegou aqui\n").getObjectAsString());
-				return Var.VAR_NULL;
-			}
-		}.call();
-	}
-
-	/**
-	 *
-	 * @return Var
-	 */
-	// Descreva esta função...
-	public static Var unnamed() throws Exception {
-		return new Callable<Var>() {
+			private Var item = Var.VAR_NULL;
 
 			public Var call() throws Exception {
-				return Var.VAR_NULL;
+				item = cronapi.database.Operations.query(Var.valueOf("app.entity.Role"),
+						Var.valueOf("select r from Role r"));
+				return cronapi.database.Operations.getField(item, Var.valueOf("this[0].useemail"));
 			}
 		}.call();
 	}
