@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly formTarget="" resourceType="JAVA" ruleDescription="Eventos" ruleName="Eventos" ruleSynchronous="false" ruleTimeout="" ruleType="I">
+  <metadata scale="1" scrollx="358.0000000000009" scrolly="6.999999999999929" target="ogLPuYEsI:H_{yD$+vZ2"/>
+  <block colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-322" y="98">
+    <field name="NAME">antesInserir</field>
+    <comment h="80" pinned="false" w="160">Eventos</comment>
+    <statement name="STACK">
+      <block colour="#5ba58c" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="dJaqCr_-Q(24}@GLZ^,P" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+        <value name="TEXT">
+          <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="$6!)XvE2fY,F~4@CTE55" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">Chegou em Antes de Inserir
+</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#995ba5" id="nJwpY6qH3KYw)43h4Pfr" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-262" y="98">
+    <field name="NAME">aonavegar</field>
+    <comment h="80" pinned="false" w="160">Eventos</comment>
+    <statement name="STACK">
+      <block colour="#5ba58c" dependencyby="nJwpY6qH3KYw)43h4Pfr" id="Y!sZnqsI89W]6fqTV~Zr" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+        <value name="TEXT">
+          <shadow colour="#5ba593" dependencyby="nJwpY6qH3KYw)43h4Pfr" id="_bim`5HA;ZeJ$78ri:D?" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">Chegou em Ao navegar
+</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#995ba5" id="`aOa)}a,|ZYt_NuU3!,_" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-302" y="138">
+    <field name="NAME">depoisInserir2</field>
+    <comment h="80" pinned="false" w="160">Eventos</comment>
+    <statement name="STACK">
+      <block colour="#5ba58c" dependencyby="`aOa)}a,|ZYt_NuU3!,_" id="W}v1ciZOr-x|z6Xqq1hs" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+        <value name="TEXT">
+          <shadow colour="#5ba593" dependencyby="`aOa)}a,|ZYt_NuU3!,_" id="Z?fS.lJN$-Hbi5|+(FW8" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">Chegou em Depois de Inserir
+</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#995ba5" id="ogLPuYEsI:H_{yD$+vZ2" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-242" y="138">
+    <field name="NAME">AoObterDados</field>
+    <comment h="80" pinned="false" w="160">Eventos</comment>
+    <statement name="STACK">
+      <block colour="#5ba58c" dependencyby="ogLPuYEsI:H_{yD$+vZ2" id="iad1ab|?JDQX?t?O5SqX" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+        <value name="TEXT">
+          <shadow colour="#5ba593" dependencyby="ogLPuYEsI:H_{yD$+vZ2" id="L@law24Ov=QoBwSZ2u8#" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">Chegou em Ao Obter Dados</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#995ba5" id="U]bs+j8iQ@TSe)t];@0V" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-282" y="178">
+    <field name="NAME">antesdedeletar</field>
+    <comment h="80" pinned="false" w="160">Eventos</comment>
+    <statement name="STACK">
+      <block colour="#5ba58c" dependencyby="U]bs+j8iQ@TSe)t];@0V" id="80+SMo2^]25vugNGL`L." origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+        <value name="TEXT">
+          <shadow colour="#5ba593" dependencyby="U]bs+j8iQ@TSe)t];@0V" id="oTVLaLIttsj4^n;B)bLn" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">Chegou em Antes de Deletar
+</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#995ba5" id="M%#9=T3PJNXwLa{0aD%n" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-262" y="218">
+    <field name="NAME">depoisdedeletar</field>
+    <comment h="80" pinned="false" w="160">Eventos</comment>
+    <statement name="STACK">
+      <block colour="#5ba58c" dependencyby="M%#9=T3PJNXwLa{0aD%n" id="Gwm)6!FVZ*dKA%%5g]1R" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+        <value name="TEXT">
+          <shadow colour="#5ba593" dependencyby="M%#9=T3PJNXwLa{0aD%n" id="xg#$9y3X}|:r|a%WWW|/" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">Chegou em Depois de Deletar
+</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#995ba5" id="8f.(:Q6:Sh=-xJ!?h0X9" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-242" y="258">
+    <field name="NAME">antesdeatualizar</field>
+    <comment h="80" pinned="false" w="160">Eventos</comment>
+    <statement name="STACK">
+      <block colour="#5ba58c" dependencyby="8f.(:Q6:Sh=-xJ!?h0X9" id="PFu(Nc0vq:Y`.Z;4}VaY" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+        <value name="TEXT">
+          <shadow colour="#5ba593" dependencyby="8f.(:Q6:Sh=-xJ!?h0X9" id="JlIABM1JjoXBbG()T$%_" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">Chegou em Antes de Atualizar
+</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#995ba5" id="}1;F;p82xC.{9A-8:wew" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-222" y="298">
+    <field name="NAME">depoisdeatualizar</field>
+    <comment h="80" pinned="false" w="160">Eventos</comment>
+    <statement name="STACK">
+      <block colour="#5ba58c" dependencyby="}1;F;p82xC.{9A-8:wew" id="R[bWt/!m2XT~^pl~3*$Z" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+        <value name="TEXT">
+          <shadow colour="#5ba593" dependencyby="}1;F;p82xC.{9A-8:wew" id=";u=xTikT##G7,N/EC)fX" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">Chegou em Depois de Atualizar
+</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+</blockly>
