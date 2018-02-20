@@ -691,5 +691,527 @@
 			"foreignKey": null
 		},
 		"serviceUrl": "api/cronapi/query/1ibebfi6vsc4h/"
+	},
+	"s4rv17xef3n6": {
+		"customId": "s4rv17xef3n6",
+		"queryName": "Teste",
+		"screen": "src/main/webapp/views/admin/user.view.html",
+		"sourceType": "entityFullName",
+		"blockly": null,
+		"entitySimpleName": "User",
+		"entityFullName": "app.entity.User",
+		"query": {
+			"isValid": true,
+			"rulesEntity": [
+				{
+					"entity": "User",
+					"alias": "u",
+					"namespace": "app.entity.User"
+				}
+			],
+			"rulesSelect": [
+				{
+					"func": "get",
+					"field": "u"
+				}
+			],
+			"rulesGroupBy": [],
+			"rulesHaving": [],
+			"rulesOrderBy": [],
+			"rules": {
+				"condition": "AND",
+				"not": false,
+				"valid": true,
+				"rules": []
+			}
+		},
+		"queryParamsValues": [],
+		"verbs": {
+			"GET": true,
+			"GETAuthorities": null,
+			"POST": true,
+			"POSTAuthorities": null,
+			"PUT": true,
+			"PUTAuthorities": null,
+			"DELETE": true,
+			"DELETEAuthorities": null,
+			"FILTER": true,
+			"FILTERAuthorities": null
+		},
+		"events": {
+			"beforeInsert": {
+				"blocklyClass": "blockly.Eventos",
+				"blocklyMethod": "antesInserir",
+				"blocklyLanguage": "java",
+				"blocklyJson": {
+					"namespace": "blockly.Eventos",
+					"classNameNew": "Eventos",
+					"classNameOld": "Eventos",
+					"sourcePath": "src/main/java/blockly/Eventos.blockly",
+					"language": "java",
+					"class": "blockly.Eventos",
+					"methods": [
+						{
+							"name": "antesInserir",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "aonavegar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "depoisInserir2",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "AoObterDados",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "antesdedeletar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "depoisdedeletar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "antesdeatualizar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "depoisdeatualizar",
+							"hasReturn": "true",
+							"params": []
+						}
+					]
+				},
+				"blocklyFunctionCall": "cronapi.util.makeCallServerBlocklyAsync('blockly.Eventos:antesInserir', null, null)"
+			},
+			"beforeUpdate": {
+				"blocklyClass": "blockly.Eventos",
+				"blocklyMethod": "antesdeatualizar",
+				"blocklyLanguage": "java",
+				"blocklyJson": {
+					"namespace": "blockly.Eventos",
+					"classNameNew": "Eventos",
+					"classNameOld": "Eventos",
+					"sourcePath": "src/main/java/blockly/Eventos.blockly",
+					"language": "java",
+					"class": "blockly.Eventos",
+					"methods": [
+						{
+							"name": "antesInserir",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "aonavegar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "depoisInserir2",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "AoObterDados",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "antesdedeletar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "depoisdedeletar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "antesdeatualizar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "depoisdeatualizar",
+							"hasReturn": "true",
+							"params": []
+						}
+					]
+				},
+				"blocklyFunctionCall": "cronapi.util.makeCallServerBlocklyAsync('blockly.Eventos:antesdeatualizar', null, null)"
+			},
+			"beforeDelete": {
+				"blocklyClass": "blockly.Eventos",
+				"blocklyMethod": "antesdedeletar",
+				"blocklyLanguage": "java",
+				"blocklyJson": {
+					"namespace": "blockly.Eventos",
+					"classNameNew": "Eventos",
+					"classNameOld": "Eventos",
+					"sourcePath": "src/main/java/blockly/Eventos.blockly",
+					"language": "java",
+					"class": "blockly.Eventos",
+					"methods": [
+						{
+							"name": "antesInserir",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "aonavegar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "depoisInserir2",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "AoObterDados",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "antesdedeletar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "depoisdedeletar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "antesdeatualizar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "depoisdeatualizar",
+							"hasReturn": "true",
+							"params": []
+						}
+					]
+				},
+				"blocklyFunctionCall": "cronapi.util.makeCallServerBlocklyAsync('blockly.Eventos:antesdedeletar', null, null)"
+			},
+			"afterInsert": {
+				"blocklyClass": "blockly.Eventos",
+				"blocklyMethod": "depoisInserir2",
+				"blocklyLanguage": "java",
+				"blocklyJson": {
+					"namespace": "blockly.Eventos",
+					"classNameNew": "Eventos",
+					"classNameOld": "Eventos",
+					"sourcePath": "src/main/java/blockly/Eventos.blockly",
+					"language": "java",
+					"class": "blockly.Eventos",
+					"methods": [
+						{
+							"name": "antesInserir",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "aonavegar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "depoisInserir2",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "AoObterDados",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "antesdedeletar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "depoisdedeletar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "antesdeatualizar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "depoisdeatualizar",
+							"hasReturn": "true",
+							"params": []
+						}
+					]
+				},
+				"blocklyFunctionCall": "cronapi.util.makeCallServerBlocklyAsync('blockly.Eventos:depoisInserir2', null, null)"
+			},
+			"afterUpdate": {
+				"blocklyClass": "blockly.Eventos",
+				"blocklyMethod": "depoisdeatualizar",
+				"blocklyLanguage": "java",
+				"blocklyJson": {
+					"namespace": "blockly.Eventos",
+					"classNameNew": "Eventos",
+					"classNameOld": "Eventos",
+					"sourcePath": "src/main/java/blockly/Eventos.blockly",
+					"language": "java",
+					"class": "blockly.Eventos",
+					"methods": [
+						{
+							"name": "antesInserir",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "aonavegar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "depoisInserir2",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "AoObterDados",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "antesdedeletar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "depoisdedeletar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "antesdeatualizar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "depoisdeatualizar",
+							"hasReturn": "true",
+							"params": []
+						}
+					]
+				},
+				"blocklyFunctionCall": "cronapi.util.makeCallServerBlocklyAsync('blockly.Eventos:depoisdeatualizar', null, null)"
+			},
+			"afterDelete": {
+				"blocklyClass": "blockly.Eventos",
+				"blocklyMethod": "depoisdedeletar",
+				"blocklyLanguage": "java",
+				"blocklyJson": {
+					"namespace": "blockly.Eventos",
+					"classNameNew": "Eventos",
+					"classNameOld": "Eventos",
+					"sourcePath": "src/main/java/blockly/Eventos.blockly",
+					"language": "java",
+					"class": "blockly.Eventos",
+					"methods": [
+						{
+							"name": "antesInserir",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "aonavegar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "depoisInserir2",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "AoObterDados",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "antesdedeletar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "depoisdedeletar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "antesdeatualizar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "depoisdeatualizar",
+							"hasReturn": "true",
+							"params": []
+						}
+					]
+				},
+				"blocklyFunctionCall": "cronapi.util.makeCallServerBlocklyAsync('blockly.Eventos:depoisdedeletar', null, null)"
+			},
+			"onNavigate": {
+				"blocklyClass": "blockly.Eventos",
+				"blocklyMethod": "aonavegar",
+				"blocklyLanguage": "java",
+				"blocklyJson": {
+					"namespace": "blockly.Eventos",
+					"classNameNew": "Eventos",
+					"classNameOld": "Eventos",
+					"sourcePath": "src/main/java/blockly/Eventos.blockly",
+					"language": "java",
+					"class": "blockly.Eventos",
+					"methods": [
+						{
+							"name": "antesInserir",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "aonavegar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "depoisInserir2",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "AoObterDados",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "antesdedeletar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "depoisdedeletar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "antesdeatualizar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "depoisdeatualizar",
+							"hasReturn": "true",
+							"params": []
+						}
+					]
+				},
+				"blocklyFunctionCall": "cronapi.util.makeCallServerBlocklyAsync('blockly.Eventos:aonavegar', null, null)"
+			},
+			"onGetData": {
+				"blocklyClass": "blockly.Eventos",
+				"blocklyMethod": "AoObterDados",
+				"blocklyLanguage": "java",
+				"blocklyJson": {
+					"namespace": "blockly.Eventos",
+					"classNameNew": "Eventos",
+					"classNameOld": "Eventos",
+					"sourcePath": "src/main/java/blockly/Eventos.blockly",
+					"language": "java",
+					"class": "blockly.Eventos",
+					"methods": [
+						{
+							"name": "antesInserir",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "aonavegar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "depoisInserir2",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "AoObterDados",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "antesdedeletar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "depoisdedeletar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "antesdeatualizar",
+							"hasReturn": "true",
+							"params": []
+						},
+						{
+							"name": "depoisdeatualizar",
+							"hasReturn": "true",
+							"params": []
+						}
+					]
+				},
+				"blocklyFunctionCall": "cronapi.util.makeCallServerBlocklyAsync('blockly.Eventos:AoObterDados', null, null)"
+			}
+		},
+		"defaultValues": {
+			"id": null,
+			"email": null,
+			"name": null,
+			"login": null,
+			"picture": null,
+			"password": null,
+			"theme": null
+		},
+		"security": {
+			"id": null,
+			"email": null,
+			"name": null,
+			"login": null,
+			"picture": null,
+			"password": null,
+			"theme": null
+		},
+		"calcFields": {},
+		"calcFieldsSecurity": {},
+		"errorHandles": {
+			"primaryKey": null,
+			"foreignKey": null
+		},
+		"serviceUrl": "api/cronapi/query/s4rv17xef3n6/"
 	}
 }

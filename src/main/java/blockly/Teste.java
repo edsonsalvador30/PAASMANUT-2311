@@ -24,7 +24,8 @@ public class Teste {
 			public Var call() throws Exception {
 				item = cronapi.database.Operations.query(Var.valueOf("app.entity.Role"),
 						Var.valueOf("select r from Role r"));
-				return cronapi.database.Operations.getField(item, Var.valueOf("this[0].useemail"));
+				cronapi.database.Operations.updateField(item, Var.VAR_NULL, Var.VAR_NULL);
+				return cronapi.database.Operations.getField(item, Var.valueOf("this[0].useid"));
 			}
 		}.call();
 	}
